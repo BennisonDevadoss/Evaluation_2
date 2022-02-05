@@ -18,7 +18,6 @@ for (i = start; i <= end; i++) {
         }
 
         j = Math.floor(j / 10);
-        // j = last_number;
     }
 
 }
