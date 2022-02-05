@@ -1,8 +1,9 @@
+"use strict";
 let a = [2, 5, 7, 10, 13];
 let b = [];
 let k = 0;
 
-for (i = 0; i < a.length - 1; i++) {
+for (let i = 0; i < a.length - 1; i++) {
     if (a[i + 1] - a[i] == 1) {
 
         continue;

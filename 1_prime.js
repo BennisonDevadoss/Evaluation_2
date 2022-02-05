@@ -1,8 +1,10 @@
+"use strict";
+
 let prime1 = [];
 // let Notprime = [];
 let l = 0;
 let m = 0;
-let k;
+let k, i, j;
 function prime(number) {
     // k = 2;
     // console.log("2");
@@ -14,7 +16,7 @@ function prime(number) {
                 if (i === 2) {
                     prime1[m] = i;
                     console.log(prime1[m]);
-                    break; 
+                    break;
                 }
                 l++
                 break;
