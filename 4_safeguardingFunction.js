@@ -1,3 +1,4 @@
+"use strict";
 let array = [];
 
 let f = function () { console.log("Hi I am in Function Block") };
