@@ -472,4 +472,144 @@ ENDFUNCTION
 Currying(2)(2)(2)
 ```
 
-#### 14. ES6s
+#### 14. ES6. 
+
+1. JavaScript ES6 is an new verson of an javaScript. that was introduce in 2015. 
+
+2. ES6 stands for ECMAScript 6. 
+
+3. That provides specification on how JavaScript programming language should work. 
+
+4. And this is second major reversion to JavaScript. 
+
+5. And it provides new features to JavaScript such as
+
+The let keyword, 
+The const keyword, 
+Arrow Functions, 
+For/of, 
+Map Objects, 
+Set Objects, 
+Classes, 
+Promises, 
+Symbol, 
+Default Parameters, 
+Function Rest Parameter, and so on. 
+
+
+#### 15_Anonymous Function. 
+
+#### Algorithm 
+
+step 1: An anonymous function doesnot have a function name. 
+
+step 2: So this function is to be initialize to a variable. 
+
+step 3: Then only we can call this function. 
+
+step 4: And this function can be passed as an argument to the another function. 
+
+step 5: First I created an anonymous function and initialize this function to an variable. 
+
+step 6: And the function is called by this variable name. 
+
+step 7: And another function, to named function I passed the anonymous function. 
+
+#### Psudocode. 
+```
+
+SET function1 = FUNCTION (a, b) 
+    PRINT a * b
+ENDFUNCTION
+function1(1, 2); 
+INIT c
+
+SET function2 = FUNCTION (a, b) {
+    RETURN a * b;
+ENDFUNCTION
+
+FUNCTION multiply(fun) 
+   SET c = fun(4, 5);
+ENDFUNCTION
+
+FUNCTION multiply(function2)
+PRINT c
+ENDFUNCTION
+
+(function () {
+    PRINT "Hello World"
+})(); 
+``` 
+
+#### 16. Named and Anotomy function. 
+
+#### Diff between named and anotomy function()
+
+#### Named function
+
+1. To define a named function, the function name define with function keyword. 
+
+2. Then only javascript accept the set of block is an function. 
+
+3. If the function define without function keyword the javascript interpreter will give error message. 
+
+4. So the function keyword is importent to the function defenition. 
+
+#### Anonymous function
+
+1. An anonymous function doesn't have any name. 
+
+2. Then the function is to be initialized to a variable. 
+
+3. The function is called immediatly. after the definition.
+
+4. This function is passed as an argument to the another function.
+
+##### Algorithm to named function. 
+
+step 1: Create an function with function keyword. called namedfunction. 
+
+step 2: and called this function with this function name. 
+
+#### Psudocode. 
+```
+FUNCTION namedFunction() 
+    SET a = 5;
+    SET b = 8;
+    PRINT a * b
+ENDFUNCTION
+namedFunction(); 
+```
+
+#### Algorithm to without named function. 
+
+step 1: First created an function without function name. this function is called anonymous function. 
+
+step 2: So the function is to be initialized to a variable. 
+
+step 3: By that variable name the function can be called. 
+
+step 4: And another exampe I passed an anonymous function as a argument to another function. 
+
+#### Psudocode. 
+```
+SET withoutNamedFunction = FUNCTION (a, b) 
+    PRINT a * b
+ENDFUNCTION
+
+withoutNamedFunction(5, 3);
+
+(FUNCTION () {
+    PRINT "hello world"
+})();
+ENDFUNCTION
+
+let anonymous = FUNCTION () 
+    PRINT "Bennison"
+ENDFUNCTION
+
+FUNCTION named(fun) 
+    fun();
+ENDFUNCTION
+named(anonymous) 
+```
