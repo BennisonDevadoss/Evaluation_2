@@ -11,7 +11,7 @@ let a = 10
 
 // print output using this keyword in normal function
 function fun() {
-    let a = 5;
+    let b = 5;
     console.log(global.a);
 }
 fun();
