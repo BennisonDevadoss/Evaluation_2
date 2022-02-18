@@ -22,5 +22,4 @@ for (i = start; i <= end; i++) {
 
 }
 
-
 console.log(count); 
