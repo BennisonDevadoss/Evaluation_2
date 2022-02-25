@@ -4,12 +4,7 @@ let b = [];
 let k = 0;
 
 for (let i = 0; i < a.length - 1; i++) {
-    if (a[i + 1] - a[i] == 1) {
-
-        continue;
-    }
-    else {
-
+    if (a[i + 1] - a[i] != 1) {
         b[k] = a[i] + 1;
 
         while (a[i + 1] - b[k] != 1) {
